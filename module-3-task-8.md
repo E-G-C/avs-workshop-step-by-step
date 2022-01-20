@@ -47,7 +47,7 @@ same as the one shown in the screenshots).
 
 ## Next Steps
 
-[Module 3](module-3-task-9.md)
+[Module 3, Task 9](module-3-task-9.md)
 
 [Module 3 Index](module-3-index.md)
 

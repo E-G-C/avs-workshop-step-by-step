@@ -25,7 +25,7 @@ In this step we will import the HCX appliance into the on premises vCenter
 
 ## Next Steps
 
-[Module 2 Task 4](module-2-task-4.md)
+[Module 2, Task 4](module-2-task-4.md)
 
 [Module 2 Index](module-2-index.md)
 

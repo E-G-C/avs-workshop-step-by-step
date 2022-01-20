@@ -30,7 +30,7 @@
 
 ## Next Seps
 
-[Module 3 Introduction](module-3-intro.md#introduction)
+[Module 3, Intro](module-3-intro.md#introduction)
 
 [Main Index](index.md)
 

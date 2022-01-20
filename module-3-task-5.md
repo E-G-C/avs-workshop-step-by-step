@@ -128,7 +128,7 @@ on the **ADD** button.
 
 ## Next Steps
 
-[Module 3](module-3-task-5.md)
+[Module 3, Task 6](module-3-task-6.md)
 
 [Module 3 Index](module-3-index.md)
 

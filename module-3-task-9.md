@@ -20,7 +20,7 @@ site’s vCenter and confirm that a placeholder VM has been created.
 
 ## Next Steps
 
-[Module 3](module-3-task-10.md)
+[Module 3, Task 10](module-3-task-10.md)
 
 [Module 3 Index](module-3-index.md)
 

@@ -52,7 +52,7 @@ connectivity between AVS and On-Premises environments
 
 ## Next Steps
 
-[Task 1](module-1-task-1.md)
+[Module 1, Task 1](module-1-task-1.md)
 
 [Module 1 Index](module-1-index.md)
 

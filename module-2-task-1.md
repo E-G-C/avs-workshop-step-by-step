@@ -26,7 +26,7 @@ Bicep/ARM/PowerShell
 
 ## Next Steps
 
-[Module 2](module-2-task-2.md)
+[Module 2, Task 2](module-2-task-2.md)
 
 [Module 2 Index](module-2-index.md)
 

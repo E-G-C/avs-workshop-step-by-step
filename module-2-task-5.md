@@ -11,7 +11,7 @@ activate HCX. This is available from the AVS environment.
 
 ## Next Steps
 
-[Module 2 Task 6](module-2-task-5.md)
+[Module 2, Task 6](module-2-task-6.md)
 
 [Module 2 Index](module-2-index.md)
 

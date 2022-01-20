@@ -31,7 +31,7 @@
 
 ## Next Steps
 
-[Module 4](module-4-task-2.md)
+[Module 4, Task 2](module-4-task-2.md)
 
 [Module 4 Index](module-4-index.md)
 

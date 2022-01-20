@@ -136,7 +136,7 @@ Log back into vCenter and retest VM1’s internet connectivity
 
 ## Next Steps
 
-[Module 4](module-4-task-1.md)
+[Module 4, Task 1](module-4-task-1.md)
 
 [Module 4 Index](module-4-index.md)
 

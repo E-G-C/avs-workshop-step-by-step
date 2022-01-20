@@ -66,7 +66,7 @@ the Azure portal (navigate to GROUP\#-AVS2-SDDC Private Cloud and select the
 
 ## Next Steps
 
-[Module 3](module-3-task-4.md)
+[Module 3, Task 4](module-3-task-4.md)
 
 [Module 3 Index](module-3-index.md)
 

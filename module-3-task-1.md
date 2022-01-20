@@ -58,7 +58,7 @@ in the Workload Networking menu on the left-hand side.
 
 ## Next Steps
 
-[Module 3](module-3-task-2.md)
+[Module 3, Task 2](module-3-task-2.md)
 
 [Module 3 Index](module-3-index.md)
 

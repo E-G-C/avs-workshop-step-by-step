@@ -48,7 +48,7 @@ site pairing.
 
 ## Next Steps
 
-[Module 3](module-3-task-5.md)
+[Module 3, Task 5](module-3-task-5.md)
 
 [Module 3 Index](module-3-index.md)
 

@@ -38,7 +38,7 @@ deployed in Task 5
 
 ## Next Steps
 
-[Module 2 Task 7](module-2-task-7.md)
+[Module 2, Task 7](module-2-task-7.md)
 
 [Module 2 Index](module-2-index.md)
 

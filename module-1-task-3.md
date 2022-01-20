@@ -278,7 +278,7 @@ ensure we can get and IP address from DHCP
 
 ## Next Steps
 
-[Module 2](module-2-intro)
+[Module 2, Index](module-2-index.md)
 
 [Module 1 Index](module-1-index.md)
 
