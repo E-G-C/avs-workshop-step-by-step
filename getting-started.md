@@ -5,7 +5,7 @@
   - [**Environment Details**](#environment-details)
   - [**Jumpbox Details**](#jumpbox-details)
   - [**AVS Environments**](#avs-environments)
-  - [**On-Premises VMware Lab Environment **](#on-premises-vmware-lab-environment-)
+  - [**On-Premises VMware Lab Environment**](#on-premises-vmware-lab-environment)
   - [**Module Configuration Details [Moderators Use]**](#module-configuration-details-moderators-use)
     - [**NSX-T Configuration to use in Module 1**](#nsx-t-configuration-to-use-in-module-1)
     - [**On-Premises HCX details to use in Module 2**](#on-premises-hcx-details-to-use-in-module-2)
@@ -15,8 +15,7 @@
 **  
 Resource Groups**
 
-![Diagram Description automatically
-generated](media/0d442085a2fd76810c980bf6a0c8661f.png)
+![](media/0d442085a2fd76810c980bf6a0c8661f.png)
 
 **  
 **The details below will be used across all modules, please take note, and refer
@@ -58,7 +57,7 @@ private cloud. It's not for daily administrative activities or integration with
 other services. For more information see
 [here](https://docs.microsoft.com/en-us/azure/azure-vmware/concepts-identity)
 
-## **On-Premises VMware Lab Environment **
+## **On-Premises VMware Lab Environment**
 
 | **Name**   | **vCenter IP**     | **Username**                | **Password** |
 |------------|--------------------|-----------------------------|--------------|

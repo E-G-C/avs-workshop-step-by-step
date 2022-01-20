@@ -1,68 +1,66 @@
 # AVS LevelUp Training Outline
 
-**Module 1: Setup AVS Connectivity**
-
--   Task 1: Connect an existing Virtual Network with AVS using AVS Express Route
-    Circuit
-
--   Task 2: Peer remote environments with Global Reach
-
--   Task 3: Configure NSX-T to establish connectivity within AVS
-
-**Module 2: Deploy HCX for VM Migration**
-
--   Task 1: Install VMware HCX Connector on AVS Private Cloud
-
--   Task 2: Obtain HCX License Key
-
--   Task 3: Download the HCX OVA to On-Premises vCenter
-
--   Task 4: Import the OVA file to on-Premises vCenter
-
--   Task 5: Deploy the HCX OVA to on=premises vCenter
-
--   Task 6: Activate VMware HCX
-
--   Task 7: Configure HCX and connect to vCenter
-
--   Task 8: Create Site Pairing from On-Premises HCX to AVS HCX
-
--   Task 9: Create network profiles
-
--   Task 10: Create compute profiles
-
--   Task 11: Create service mesh
-
--   Task 12: Setup the Network Extension
-
--   Task 13: Migrate a VM using HCX and vMotion
-
-**Module 3: Setup SRM for Disaster Recovery**
-
--   Task 1: Install SRM appliances and VR appliances in AVS clouds
-
--   Task 2: Configuring Site Pairing in vCenter
-
--   Task 3: Prepare the recovery site
-
--   Task 4: Configure the Inventory mappings
-
--   Task 5: Configure replication for the VM
-
--   Task 6: Test a Recovery plan
-
--   Task 7: Clean Up after testing a recovery plan
-
--   Task 8: Run a recovery plan
-
--   Task 9: Reprotection
-
--   Task 10: Failback
-
-**Module 4: Route traffic to the internet using a Secure Hub**
-
--   Task 1: Deploy Virtual WAN
-
--   Task 2: Configure Public IP Option
-
--   Task 3: Configure Azure Firewall policies
+- [Module 1: Setup AVS Connectivity](#module-1-setup-avs-connectivity)
+  - [Introduction](module-1-intro#introduction)
+  - [Scenario](module-1-intro#scenario)
+  - [Agenda for next 60 mins:](module-1-intro##agenda-for-next-60-mins)
+  - [Task 1: Connect an existing Virtual Network with AVS using AVS ExpressRoute Circuit](module-1-task-1#task-1-connect-an-existing-virtual-network-with-avs-using-avs-expressroute-circuit)
+    - [Section Overview:](module-1-task-1##section-overview)
+    - [Deployment Steps:](module-1-task-1##deployment-steps)
+  - [Task 2: Peer remote environments with Global Reach](module-1-task-2#task-2-peer-remote-environments-with-global-reach)
+    - [Section Overview:](module-1-task-2#section-overview-1)
+    - [Deployment Steps:](module-1-task-2#deployment-steps-1)
+  - [Task 3: Configure NSX-T to establish connectivity within AVS](module-1-task-3#task-3-configure-nsx-t-to-establish-connectivity-within-avs)
+    - [Section Overview:](module-1-task-3#section-overview-2)
+    - [Step 1 (Preconfigured): Configure DNS Forwarder](module-1-task-3#step-1-preconfigured-configure-dns-forwarder)
+    - [Step 2: Add a DHCP Profile in both AVS 1 & AVS 2 private clouds](module-1-task-3#step-2-add-a-dhcp-profile-in-both-avs-1--avs-2-private-clouds)
+    - [Step 3: Add the DHCP Profile to the T1 Gateway](module-1-task-3#step-3-add-the-dhcp-profile-to-the-t1-gateway)
+    - [Step 4: Create a Network Segment for workloads](module-1-task-3#step-4-create-a-network-segment-for-workloads)
+    - [Step 5: Create Test VM and connect to Segment](module-1-task-3#step-5-create-test-vm-and-connect-to-segment)
+- [Module 2: Deploy HCX for VM Migration](#module-2-deploy-hcx-for-vm-migration)
+  - [Scenario](#scenario)
+  - [Introduction](#introduction)
+  - [Agenda for next 60 mins:](#agenda-for-next-60-mins)
+  - [Task 1 (Preconfigured) : Install VMware HCX on AVS Private Cloud](#task-1-preconfigured--install-vmware-hcx-on-avs-private-cloud)
+  - [Task 2 (Preconfigured): Download the HCX OVA to On-Premises vCenter](#task-2-preconfigured-download-the-hcx-ova-to-on-premises-vcenter)
+  - [Task 3 (Preconfigured) : Import the OVA file to the On-Premises vCenter](#task-3-preconfigured--import-the-ova-file-to-the-on-premises-vcenter)
+  - [Task 4: Deploy the HCX OVA to On-Premises vCenter](#task-4-deploy-the-hcx-ova-to-on-premises-vcenter)
+  - [Task 5: Obtain HCX License Key](#task-5-obtain-hcx-license-key)
+  - [Task 6: Activate VMware HCX](#task-6-activate-vmware-hcx)
+  - [Task 7: Configure HCX and connect to vCenter](#task-7-configure-hcx-and-connect-to-vcenter)
+  - [Task 8: Create Site Pairing from On-premises HCX to AVS HCX](#task-8-create-site-pairing-from-on-premises-hcx-to-avs-hcx)
+  - [Task 9: Create network profiles](#task-9-create-network-profiles)
+  - [Task 10: Create compute profiles](#task-10-create-compute-profiles)
+  - [Task 11: Create a service mesh](#task-11-create-a-service-mesh)
+  - [Task 12 Setup the Network Extension](#task-12-setup-the-network-extension)
+  - [Task 13: Migrate a VM using HCX and vMotion](#task-13-migrate-a-vm-using-hcx-and-vmotion)
+- [Module 3: Setup SRM for Disaster Recovery](module-3-intro#module-3-setup-srm-for-disaster-recovery)
+  - [Introduction](module-3-intro#introduction)
+    - [What you will learn](module-3-intro#what-you-will-learn)
+    - [Prerequisite knowledge](module-3-intro#prerequisite-knowledge)
+    - [Module scenario](module-3-intro#module-scenario)
+    - [Site Recovery Manager](module-3-intro#site-recovery-manager)
+    - [vSphere replication](module-3-intro#vsphere-replication)
+    - [Site Recovery Concepts](module-3-intro#site-recovery-concepts)
+  - [Task 0 (preconfigured): Install SRM add-on in the protected and the recovery sites](module-3-intro##task-0-preconfigured-install-srm-add-on-in-the-protected-and-the-recovery-sites)
+  - [Task 1: Configure the production site (GROUP\#-AVS1-SDDC)](module-3-task-1#task-1-configure-the-production-site-group-avs1-sddc)
+  - [Task 2: Create a VM in the protected site](module-3-task-2#task-2-create-a-vm-in-the-protected-site)
+  - [Task 3: Create an NSX-T segment in the recovery site GROUP\#-AVS2-SDDC](module-3-task-3#task-3-create-an-nsx-t-segment-in-the-recovery-site-group-avs2-sddc)
+  - [Task 4: Configure a Site Pairing in Site Recovery Manager](module-3-task-4#task-4-configure-a-site-pairing-in-site-recovery-manager)
+  - [Task 5: Configure Inventory Mappings](module-3-task-5#task-5-configure-inventory-mappings)
+    - [Network mappings](module-3-task-5#network-mappings)
+    - [Folder Mappings](module-3-task-5#folder-mappings)
+    - [Resource Mappings](module-3-task-5#resource-mappings)
+    - [Storage Policy Mappings](module-3-task-5#storage-policy-mappings)
+    - [Placeholder Datastores](module-3-task-5#placeholder-datastores)
+  - [Task 6: Configure vSphere Replication and Recovery Plan](module-3-task-6#task-6-configure-vsphere-replication-and-recovery-plan)
+    - [vSphere Replication](module-3-task-6#vsphere-replication-1)
+    - [SRM Protection Group and Recovery Plan](module-3-task-6#srm-protection-group-and-recovery-plan)
+  - [Task 7: Test Recovery Plan](module-3-task-7#task-7-test-recovery-plan)
+  - [Task 8: Run Recovery Plan](module-3-task-8#task-8-run-recovery-plan)
+  - [Task 9: Reprotect the Migrated VM](module-3-task-9#task-9-reprotect-the-migrated-vm)
+  - [Task 10: Run Recovery Plan](module-3-task-10#task-10-run-recovery-plan)
+- [Module 4: Create and configure a Secure Hub to route traffic to the internet](module-4-intro#module-4-create-and-configure-a-secure-hub-to-route-traffic-to-the-internet)
+  - [Task 1: Deploy Virtual WAN](module-4-task-1#task-1-deploy-virtual-wan)
+  - [Task 2: Configure Public IP Option](module-4-task-2#task-2-configure-public-ip-option)
+  - [Task 3: Configure Azure Firewall policies](module-4-task-3#task-3-configure-azure-firewall-policies)
