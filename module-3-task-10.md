@@ -40,8 +40,8 @@ Task 9. This completes the lab for SRM Disaster Recovery scenario.
 
 ## Next Steps
 
-[Module 4](module-4-index)
+[Module 4](module-4-index.md)
 
-[Module 3 Index](module-3-index)
+[Module 3 Index](module-3-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

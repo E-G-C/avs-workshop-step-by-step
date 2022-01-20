@@ -39,8 +39,8 @@ a VM called **SampleApp-AppA-Standalone** already connected to our
 
 ## Next Steps
 
-[Module 3](module-3-index)
+[Module 3](module-3-index.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

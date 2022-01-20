@@ -45,8 +45,8 @@ working on.
 
 ## Next Steps
 
-[Module 3](module-3-task-3)
+[Module 3](module-3-task-3.md)
 
-[Module 3 Index](module-3-index)
+[Module 3 Index](module-3-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

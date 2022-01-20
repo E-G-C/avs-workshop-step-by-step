@@ -69,8 +69,8 @@ documentation](https://docs.vmware.com/en/VMware-HCX/4.2/hcx-user-guide/GUID-BBA
 
 ## Next Steps
 
-[Module 2 Task 11](module-2-task-11)
+[Module 2 Task 11](module-2-task-11.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

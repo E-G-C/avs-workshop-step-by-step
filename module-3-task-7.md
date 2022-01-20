@@ -39,8 +39,8 @@ Follow the steps in the wizard to launch the clean-up process.
 
 ## Next Steps
 
-[Module 3](module-3-task-8)
+[Module 3](module-3-task-8.md)
 
-[Module 3 Index](module-3-index)
+[Module 3 Index](module-3-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

@@ -40,8 +40,8 @@ In this section, we will integrate HCX Manager with the On-Premises vCenter
 
 ## Next Steps
 
-[Module 2 Task 8](module-2-task-8)
+[Module 2 Task 8](module-2-task-8.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

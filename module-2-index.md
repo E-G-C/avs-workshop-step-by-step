@@ -19,6 +19,6 @@
 
 ## Next Seps
 
-[Module 2 Introduction](module-2-intro#introduction)
+[Module 2 Introduction](module-2-intro.md#introduction)
 
-[Main Index](index)
+[Main Index](index.md)

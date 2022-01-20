@@ -144,8 +144,8 @@ Docs](https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-configure-net
 
 ## Next Steps
 
-[Task 2](module-1-task-2)
+[Task 2](module-1-task-2.md)
 
-[Module 1 Index](module-1-index)
+[Module 1 Index](module-1-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

@@ -71,8 +71,8 @@ Docs](https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-expressroute-
 
 ## Next Steps
 
-[Task 3](module-1-task-3)
+[Task 3](module-1-task-3.md)
 
-[Module 1 Index](module-1-index)
+[Module 1 Index](module-1-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

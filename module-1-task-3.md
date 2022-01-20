@@ -280,6 +280,6 @@ ensure we can get and IP address from DHCP
 
 [Module 2](module-2-intro)
 
-[Module 1 Index](module-1-index)
+[Module 1 Index](module-1-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

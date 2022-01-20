@@ -247,8 +247,8 @@ Verify that SRM and vSphere replication are already installed (**BOTH** buttons 
 
 ## Next Steps
 
-[Module 3](module-3-task-1)
+[Module 3](module-3-task-1.md)
 
-[Module 3 Index](module-3-index)
+[Module 3 Index](module-3-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

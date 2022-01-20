@@ -19,6 +19,6 @@
     - [Step 5: Create Test VM and connect to Segment](module-1-task-3#step-5-create-test-vm-and-connect-to-segment)
 
 ## Next Seps
-[Introduction](module-1-intro#introduction)
+[Introduction](module-1-intro.md#introduction)
 
-[Main Index](index)
+[Index](index.md)

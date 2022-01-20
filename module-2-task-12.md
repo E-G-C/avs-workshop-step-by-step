@@ -29,8 +29,8 @@ to retain their existing IP address and be accessible from all locations
 
 ## Next Steps
 
-[Module 2 Task 13](module-2-task-13)
+[Module 2 Task 13](module-2-task-13.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

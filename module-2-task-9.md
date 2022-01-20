@@ -88,8 +88,8 @@ phase](https://docs.microsoft.com/en-us/azure/azure-vmware/plan-private-cloud-de
 
 ## Next Steps
 
-[Module 2 Task 10](module-2-task-10)
+[Module 2 Task 10](module-2-task-10.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

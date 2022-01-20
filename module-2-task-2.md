@@ -49,8 +49,8 @@ Manager
 
 ## Next Steps
 
-[Module 2 Task 3](module-2-task-3)
+[Module 2 Task 3](module-2-task-3.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

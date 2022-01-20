@@ -6,7 +6,7 @@
 
 ## Next Seps
 
-[Module 4 Introduction](module-4-intro#introduction)
+[Module 4 Introduction](module-4-intro.md#introduction)
 
-[Main Index](index)
+[Main Index](index.md)
 

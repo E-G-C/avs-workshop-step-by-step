@@ -71,8 +71,8 @@ that number for comparison after VM is moved from on-prem to AVS**
 
 ## Next Steps
 
-[Module 2](module-2-task-1)
+[Module 2](module-2-task-1.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

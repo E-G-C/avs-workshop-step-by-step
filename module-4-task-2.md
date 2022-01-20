@@ -4,8 +4,8 @@
 
 ## Next Steps
 
-[Module 4](module-4-task-3)
+[Module 4](module-4-task-3.md)
 
-[Module 4 Index](module-4-index)
+[Module 4 Index](module-4-index.md)
 
-[Main Index](index)
+[Main Index](index.md)

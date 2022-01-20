@@ -51,8 +51,8 @@ Started section
 
 ## Next Steps
 
-[Module 2 Task 5](module-2-task-5)
+[Module 2 Task 5](module-2-task-5.md)
 
-[Module 2 Index](module-2-index)
+[Module 2 Index](module-2-index.md)
 
-[Main Index](index)
+[Main Index](index.md)
