@@ -20,6 +20,6 @@
 
 
 ## Next Seps
-[Introduction](module-1-intro.md#introduction)
+[Module 1, Intro](module-1-intro.md#introduction)
 
 [Index](index.md)
