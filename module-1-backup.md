@@ -1,3 +1,22 @@
+
+# Module 1: Setup AVS Connectivity
+- [Module 1: Setup AVS Connectivity](#module-1-setup-avs-connectivity)
+  - [Introduction](#introduction)
+  - [Scenario](#scenario)
+  - [Agenda for next 60 mins:](#agenda-for-next-60-mins)
+  - [Task 1: Connect an existing Virtual Network with AVS using AVS ExpressRoute Circuit](#task-1-connect-an-existing-virtual-network-with-avs-using-avs-expressroute-circuit)
+    - [Section Overview:](#section-overview)
+    - [Deployment Steps:](#deployment-steps)
+  - [Task 2: Peer remote environments with Global Reach](#task-2-peer-remote-environments-with-global-reach)
+    - [Section Overview:](#section-overview-1)
+    - [Deployment Steps:](#deployment-steps-1)
+  - [Task 3: Configure NSX-T to establish connectivity within AVS](#task-3-configure-nsx-t-to-establish-connectivity-within-avs)
+    - [Section Overview:](#section-overview-2)
+    - [Step 1 (Preconfigured): Configure DNS Forwarder](#step-1-preconfigured-configure-dns-forwarder)
+    - [Step 2: Add a DHCP Profile in both AVS 1 & AVS 2 private clouds](#step-2-add-a-dhcp-profile-in-both-avs-1--avs-2-private-clouds)
+    - [Step 3: Add the DHCP Profile to the T1 Gateway](#step-3-add-the-dhcp-profile-to-the-t1-gateway)
+    - [Step 4: Create a Network Segment for workloads](#step-4-create-a-network-segment-for-workloads)
+    - [Step 5: Create Test VM and connect to Segment](#step-5-create-test-vm-and-connect-to-segment)
 ## Introduction
 
 Azure VMware Solution offers a private cloud environment accessible from
@@ -49,11 +68,3 @@ After this lab is complete, you will have built out this scenario below
 \*For this lab, a secondary AVS environment is provided to simulate a datacenter
 or co-location. In real world scenarios, using Global Reach facilitates
 connectivity between AVS and On-Premises environments
-
-## Next Steps
-
-[Module 1, Task 1](module-1-task-1.md)
-
-[Module 1 Index](module-1-index.md)
-
-[Main Index](index.md)

@@ -1,5 +1,5 @@
 # AVS LevelUp Training Outline
-- [Recommneded Training](recommended-training.md)
+
 - [Module 1: Setup AVS Connectivity](module-1-intro.md#module-1-setup-avs-connectivity)
   - [Introduction](module-1-intro.md#introduction)
   - [Scenario](module-1-intro.md#scenario)
