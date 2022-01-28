@@ -25,12 +25,6 @@ whenever required.
 
 **Replace “\#” with your group number**
 
-Connect to [**https://portal.azure.com**](https://portal.azure.com) with the
-following credentials:
-
-| **Username** | Group**\#**@vmwaresales101outlook.onmicrosoft.com |
-|--------------|---------------------------------------------------|
-| **Password** | Avs\$levelUp400                                   |
 
 ## **Environment Details**
 
