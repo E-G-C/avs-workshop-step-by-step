@@ -126,7 +126,7 @@ vSphere (aka host-based) replication, vVols replication and a combination of
 array-based and vSphere replication ([learn
 more](https://docs.vmware.com/en/Site-Recovery-Manager/8.3/com.vmware.srm.admin.doc/GUID-35BBE965-ADC3-4E6E-A094-3D0037DA8528.html)).
 AVS Private Clouds run on hyperconverged physical infrastructure powered by
-VMWare’s first-party storage virtualization software, vSAN. As such, **the only
+VMware’s first-party storage virtualization software, vSAN. As such, **the only
 replication technology that can be used with SRM in AVS is vSphere replication,
 which does not require storage arrays**. With vSphere replication, the storage
 source and target can be any storage device. vSphere Replication is configured

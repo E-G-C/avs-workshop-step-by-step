@@ -28,7 +28,7 @@
   - [Task 10: Run Recovery Plan](module-3-task-10.md#task-10-run-recovery-plan)
 
 
-## Next Seps
+## Next Steps
 
 [Module 3, Intro](module-3-intro.md#introduction)
 

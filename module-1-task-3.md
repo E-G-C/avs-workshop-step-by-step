@@ -4,7 +4,7 @@
 
 After deploying Azure VMware Solution, you can configure an NSX-T network
 segment from NSX-T Manager or the Azure portal. Once configured, the segments
-are visible in Azure VMware Solution, NSX-T Manger, and vCenter.
+are visible in Azure VMware Solution, NSX-T Manager, and vCenter.
 
 NSX-T comes pre-provisioned by default with an NSX-T Tier-0 gateway in
 Active/Active mode and a default NSX-T Tier-1 gateway in Active/Standby mode.
@@ -93,14 +93,13 @@ anywhere in your SDDC network.
 3.  Click **ADD DHCP PROFILE** and name the profile as
     **DHCP-Profile-GROUP\#-AVS1 for AVS1 or DHCP-Profile-GROUP\#-AVS2 for AVS2**
 
-4.  Under **Profile Type** and select DHCP Server and provide the required
+4.  Under **Profile Type**, select DHCP Server and provide the required
     configuration parameters.
 
 5.  Specify the IPv4 **Server IP Address** as **10.\#.50.1/30 for AVS1 and
     10.\#.50.5/30 for AVS2**, and optionally change the **Lease Time**.
 
-    >   **Important: Please configure DHCP for AVS2 too. This is needed for Module
-    SRM.**
+    >   **Important: Please configure DHCP for AVS2 too. This is needed for SRM Module.**
 
 6.  Click **SAVE** to create the profile.
 
@@ -226,9 +225,9 @@ ensure we can get and IP address from DHCP
     ![](media/fb219fcfe3faac62666f8d6f10977655.png)
 
 5.  Import using this URL - [Download
-    Link](https://nestedlabovawus.blob.core.windows.net/7979ae9d-74ee-477c-93ee-0817ab8b52d4/NetworkTest-VM.ova)
+    Link](https://gpsusstorage.blob.core.windows.net/ovas-isos/workshop-vm.ova)
 
-    <https://nestedlabovawus.blob.core.windows.net/7979ae9d-74ee-477c-93ee-0817ab8b52d4/NetworkTest-VM.ova>
+    <https://gpsusstorage.blob.core.windows.net/ovas-isos/workshop-vm.ova>
 
     ![](media/b5701607d275a8e560de611a84319f14.png)
 

@@ -4,7 +4,7 @@
 
 After you connect your AVS with the existing VNet, you'll peer it with another
 AVS lab environment. The process used in this section is the same for when
-connecting from the Azure VMWare Solution to On-Premises.
+connecting from the Azure VMware Solution to On-Premises.
 
 ExpressRoute Global Reach is used to connect AVS to AVS in a different region,
 and On-premises environments to AVS. The ExpressRoute Global Reach connection is

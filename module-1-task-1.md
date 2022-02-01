@@ -3,7 +3,7 @@
 ### Section Overview:
 
 In this section you will create a connection between an existing, non-AVS,
-Virtual Network in Azure and the Azure VMware Service environment. This allows
+Virtual Network in Azure and the Azure VMware Solution environment. This allows
 the jumpbox virtual machine to manage key components in the VMware management
 plane such as vCenter, HCX, and NSX-T. You will also be able to access Virtual
 Machines deployed in AVS and allows those VMs to access resources deployed in
@@ -30,7 +30,7 @@ number.
 >  your Azure VMware Solution private cloud.
 > - **The last step of this section is expected to fail, the Connection will be created but it 
 > will be in Failed state because another Connection to the same target already exists. This is 
-> expected behaviour and you can ignore the error.** 
+> expected behavior and you can ignore the error.** 
 > 
 > **Important: Please ensure all Steps are done on both AVS private clouds, AVS1
 > and 2.**
@@ -87,9 +87,9 @@ number.
 
 5.  **Access vCenter and NSX-T environment with Bastion -** Now you can validate
     this connection by accessing vCenter in AVS from a jumpbox in Azure.
-6.  In the Azure Portal, go back to the Azure VMWare Solution
+6.  In the Azure Portal, go back to the Azure VMware Solution
 
-7.  Select the Azure VMWare Solution associated with your group:
+7.  Select the Azure VMware Solution associated with your group:
     GROUP\#-AVS1-SDDC
 
 8.  In the left hand navigation, select **Identity**
@@ -118,7 +118,7 @@ number.
     14.1.  In the Azure Portal, go to your primary AVS \> Identity
 
     14.2.  Select the IP for vCenter. On the bastion hosts, open the Edge browser
-        and enter the VCenter IP’s.
+        and enter the vCenter IP’s.
 
     14.3.  There will be a Secure browser connection popup. Select the advanced
         button
