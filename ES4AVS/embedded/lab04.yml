@@ -1,0 +1,11 @@
+LabID: "000000000004"
+VLAN: 400
+LabCIDR: "192.168.4.0/24"
+ExampleVMs: true
+Workloads:
+  - Name: "web"
+    ID: 10
+    Gateway: "192.168.104.1/25"
+  - Name: "app"
+    ID: 11
+    Gateway: "192.168.104.129/25"
