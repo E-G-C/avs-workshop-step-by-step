@@ -1,5 +1,7 @@
 # Task 5: Configure Inventory Mappings
 
+<span style="color:green">Remember X is your group number, Y is your participant number, Z is the SDDC you've been paired with.</span>
+
 In this task you will configure inventory mappings, which define the resources
 (networks, folders, compute resources, storage policies) that VMs must use when
 moved to the recovery site. It is also possible to define reverse mappings,
@@ -15,8 +17,8 @@ button to launch the configuration wizard.
 
 Select **Prepare mappings manually** to define a custom mapping between the
 network segments created for the SRM lab module in the previous tasks. Then
-click on the **NEXT** button and map the **SRM-LAB** segment in the protected site
-to the **SRM-LAB-RECOVERY** segment in the recovery site. Click on the **ADD
+click on the **NEXT** button and map the **SRM-LAB-GROUP-XY** segment in the protected site
+to the **SRM-LAB-RECOVERY-GROUP-XY** segment in the recovery site. Click on the **ADD
 MAPPINGS** button to confirm.
 
 ![](media/2efdf93a054c742f7bb646c4dc6c6223.png)
@@ -117,7 +119,7 @@ on the **ADD** button.
 ![](media/f633376f0777f39351ce0507d6d1638f.png)
 
 Repeat the same steps for the recovery site’s vCenter (its FQDN ends with the
-suffix ****southcentralus**.avs.azure.com**).
+suffix ****brazilsouth**.avs.azure.com**).
 
 ![](media/4cbe92d7e370b175e72f8c8ce9e0a458.png)
 

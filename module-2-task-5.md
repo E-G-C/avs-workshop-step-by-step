@@ -3,7 +3,7 @@
 While the HCX installation runs, we will need to obtain a license key to
 activate HCX. This is available from the AVS environment.
 
-1.  Navigate to AVS1, go to **Add-ons \> Migration using HCX**
+1.  Navigate to AVS, go to **Add-ons \> Migration using HCX**
 
 2.  Select Add to enter a key name, once added a new Activation Key will appear
 

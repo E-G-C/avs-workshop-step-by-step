@@ -13,7 +13,7 @@ Manager
     ![](media/271a0e1edceab23f71faf345f2d8c108.png)
 
 2.  Navigate to the Azure portal to the Virtual Machines blade, select the
-    **GROUP\#-AVS1-jumpbox** which is in the **GROUP\#-AVS1-Jumpbox** Resource
+    **GROUP\#-AVS-jumpbox** which is in the **GROUP\#-AVS-Jumpbox** Resource
     Group.
 
 3.  Then click **Connect \> Bastion**  

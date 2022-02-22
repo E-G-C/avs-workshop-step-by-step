@@ -18,7 +18,7 @@
     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------|
     | Virtual WAN resource group    | Auto-populated and can not be modified in the poral                                                                   |
     | Virtual WAN name              | Leave default auto-populated                                                                                          |
-    | Virtual hub address block     | Use the following value 10.**[Your Group Number]**.4.0/24 to avoid conflict with other networks used in this training |
+    | Virtual hub address block     | Use the following value 10.**XY**.4.0/24 to avoid conflict with other networks used in this training |
     | Number of public IPs (1-100): | 1                                                                                                                     |
 
     ![](media/6295fbcd7f543b20d04c2dbdfb5bf43e.png)

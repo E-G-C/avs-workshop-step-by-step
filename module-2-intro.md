@@ -30,36 +30,36 @@ migrate a test VM to AVS
 ## Scenario
 
 ![](media/136c89b977956b39969c42626cbd4711.png)Customer would like to migrate
-workloads from On-Prem VMware environment to AVS Cloud Migration
+workloads from On-Prem VMware environment to AVS.
 
 **Prerequisites:**
 
 -   Ensure that Module 1 has been completed successfully as this will be
     required to connect HCX from AVS to the On-Premises Lab.  
-    Jumphost from AVS1&2 should be able to ping following ip addresses:
+    Jumphost from AVS should be able to ping following ip addresses:
 
-    -   AVS1 vCenter: get from the Azure Portal
+    -   AVS vCenter: get from the Azure Portal
 
-    -   AVS2 vCenter: get from the Azure Portal
+    -   On-prem vCenter: 192.168.**XY**.2/24
 
-    -   On-prem vCenter: 10.211.**\#**.2/24
+<span style="color:green">Remember that X is your group number and Y is your participant number.</span>
 
 >**Important: Make a note of Latency number from jumpbox to on-prem VM. We’ll use
 that number for comparison after VM is moved from on-prem to AVS**
 
--   Review HCX documentation on VMware site. ([About the VMware HCX User
+-   Review HCX documentation on VMware site. [(About the VMware HCX User
     Guide)](https://docs.vmware.com/en/VMware-HCX/4.0/hcx-user-guide/GUID-BFD7E194-CFE5-4259-B74B-991B26A51758.html)
 
-## Agenda for next 60 mins:
+## Agenda for next exercise:
 
 | **Action Plan**                              | **Time required for each step** |
 |----------------------------------------------|---------------------------------|
-| Install VMWare HCX on AVS Private Cloud      | Preconfigured                   |
+| Install VMware HCX on AVS Private Cloud      | Preconfigured                   |
 | Download HCX OVA to On-Premises vCenter      | Preconfigured                   |
 | Import OVA to On-Premises vCenter            | Preconfigured                   |
 | Deploy HCX to On-Premises vCenter            | 15 mins                         |
 | Obtain HCX License Key                       | 5 mins                          |
-| Activate VMWare HCX                          | 5 mins                          |
+| Activate VMware HCX                          | 5 mins                          |
 | Configure HCX and connect to vCenter         | 15 mins                         |
 | Create Site Pairing from On-Premises to AVS  | 5 mins                          |
 | Create network profiles                      | 5 mins                          |

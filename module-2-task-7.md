@@ -6,7 +6,7 @@ In this section, we will integrate HCX Manager with the On-Premises vCenter
     vCenter server and the appropriate credentials, and then select
     **Continue**., see Getting Started Section for more details
 
-    1.1.  In this lab, this is <https://10.211.X.2>
+    1.1.  In this lab, this is <https://192.168.XY.2>
 
     1.2.  Username:
         [administrator@vsphere.local](mailto:administrator@vsphere.local)
@@ -18,7 +18,7 @@ In this section, we will integrate HCX Manager with the On-Premises vCenter
 2.  In **Configure SSO/PSC**, provide the same vCenter IP address, and select
     **Continue**.
 
-    2.1.  https://10.211.X.2
+    2.1.  https://192.168.XY.2
 
     ![](media/5a9f978cbd67220a76f703daf0a27a58.png)
 

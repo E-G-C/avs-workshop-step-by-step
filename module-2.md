@@ -61,7 +61,7 @@ migrate a test VM to AVS
 
     -   AVS2 vCenter: get from the Azure Portal
 
-    -   On-prem vCenter: 10.211.**\#**.2/24
+    -   On-prem vCenter: 192.168.**\#**.2/24
 
 >**Important: Make a note of Latency number from jumpbox to on-prem VM. We’ll use
 that number for comparison after VM is moved from on-prem to AVS**
@@ -129,7 +129,7 @@ Manager
     ![](media/271a0e1edceab23f71faf345f2d8c108.png)
 
 2.  Navigate to the Azure portal to the Virtual Machines blade, select the
-    **GROUP\#-AVS1-jumpbox** which is in the **GROUP\#-AVS1-Jumpbox** Resource
+    **GROUP\#-AVS-Jumpbox** which is in the **GROUP\#-AVS-Jumpbox** Resource
     Group.
 
 3.  Then click **Connect \> Bastion**  
@@ -223,9 +223,9 @@ Started section
     |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------|
     | Hostname                                | Any name (Suggestion: HCXGROUP**\#**) **Note: Do not leave a space in the name as this causes the webserver to fail)** |
     | CLI "admin" User Password/root Password | 0hDG3VqFyTd!                                                                                                           |
-    | Network 1 IPv4 Address                  | 10.211.**X**.9                                                                                                         |
+    | Network 1 IPv4 Address                  | 192.168.**X**.9                                                                                                         |
     | Network 1 IPv4 Prefix Length            | 27                                                                                                                     |
-    | Default IPv4 Gateway                    | 10.211.**X**.1                                                                                                         |
+    | Default IPv4 Gateway                    | 192.168.**X**.1                                                                                                         |
     | DNS Server list                         | 1.1.1.1                                                                                                                |
 
     ![](media/b85bba096a40c43616f56c8adfbac9d9.png)
@@ -258,7 +258,7 @@ deployed in Task 5
 1.  Browse to the On-Premises HCX Manager IP specified in Task 4 on port 9443 IP
     and login (Make sure you use **https://** in the address bar in the browser)
 
-    1.1.  <https://10.211.x.9:9443>
+    1.1.  <https://192.168.x.9:9443>
 
 2.  Login using the **HCX Credentials** specified in Task 4
 
@@ -296,7 +296,7 @@ In this section, we will integrate HCX Manager with the On-Premises vCenter
     vCenter server and the appropriate credentials, and then select
     **Continue**., see Getting Started Section for more details
 
-    1.1.  In this lab, this is <https://10.211.X.2>
+    1.1.  In this lab, this is <https://192.168.X.2>
 
     1.2.  Username:
         [administrator@vsphere.local](mailto:administrator@vsphere.local)
@@ -308,7 +308,7 @@ In this section, we will integrate HCX Manager with the On-Premises vCenter
 2.  In **Configure SSO/PSC**, provide the same vCenter IP address, and select
     **Continue**.
 
-    2.1.  https://10.211.X.2
+    2.1.  https://192.168.X.2
 
     ![](media/5a9f978cbd67220a76f703daf0a27a58.png)
 
@@ -335,7 +335,7 @@ HCX appliance to the AVS HCX appliance
 
 1.  Sign into your On-Premises vCenter
 
-    1.1.  URL: https://10.211.x.2
+    1.1.  URL: https://192.168.x.2
 
     1.2.  Username:
         administrator@vsphere.local
@@ -414,9 +414,9 @@ phase](https://docs.microsoft.com/en-us/azure/azure-vmware/plan-private-cloud-de
 
     | **Property**               | **Value**                       |
     |----------------------------|---------------------------------|
-    | Management Network IP      | 10.211.**X**.10-10.211.**X**.16 |
+    | Management Network IP      | 192.168.**X**.10-192.168.**X**.16 |
     | Prefix Length              | 27                              |
-    | Management Network Gateway | 10.211.**X**.1                  |
+    | Management Network Gateway | 192.168.**X**.1                  |
 
     ![](media/1c9f63a7f34234d5f5ca099053d5b2be.png)
 
@@ -429,27 +429,27 @@ phase](https://docs.microsoft.com/en-us/azure/azure-vmware/plan-private-cloud-de
 
     | **Property**            | **Value**                       |
     |-------------------------|---------------------------------|
-    | vMotion Network IP      | 10.211.**X**.74-10.211.**X**.77 |
+    | vMotion Network IP      | 192.168.**X**.74-192.168.**X**.77 |
     | Prefix Length           | 27                              |
-    | vMotion Network Gateway | 10.211.**X**.65’                |
+    | vMotion Network Gateway | 192.168.**X**.65’                |
     | DNS                     | 1.1.1.1                         |
 
     Replication Network Profile
 
     | **Property**                | **Value**                         |
     |-----------------------------|-----------------------------------|
-    | Replication IP              | 10.211.**X**.106-10.211.**X**.109 |
+    | Replication IP              | 192.168.**X**.106-192.168.**X**.109 |
     | Prefix Length               | 27                                |
-    | Replication Network Gateway | 10.211.**X**.97                   |
+    | Replication Network Gateway | 192.168.**X**.97                   |
     | DNS                         | 1.1.1.1                           |
 
     Uplink Network Profile
 
     | **Property**           | **Value**                       |
     |------------------------|---------------------------------|
-    | Uplink Network IP      | 10.211.**X**.34-10.211.**X**.40 |
+    | Uplink Network IP      | 192.168.**X**.34-192.168.**X**.40 |
     | Prefix Length          | 28                              |
-    | Uplink Network Gateway | 10.211.**X**.33                 |
+    | Uplink Network Gateway | 192.168.**X**.33                 |
     | DNS                    | 1.1.1.1                         |
 
     ![](media/d8a7f813510d8141d0b1277071c2e94e.png)
@@ -529,7 +529,7 @@ documentation](https://docs.vmware.com/en/VMware-HCX/4.2/hcx-user-guide/GUID-BBA
 
 In this section, we will be creating the service mesh
 
-**Important Note -** Make sure ports UDP 500/4500 are open between your
+**Important Note -** Make sure port 4500 is open between your
 On-Premises VMware HCX Connector 'uplink' network profile addresses and the
 Azure VMware Solution HCX Cloud 'uplink' network profile addresses.
 
@@ -611,8 +611,8 @@ to retain their existing IP address and be accessible from all locations
 3.  Select the First Hop Router, in this Lab there is only 1 option –
     **TNTXX-TI**
 
-4.  Enter the Workload Web Gateway IP as 10.211.10**X**.1/25 or
-    10.211.1**XX**.1/25 (Group 10+)
+4.  Enter the Workload Web Gateway IP as 192.168.10**X**.1/25 or
+    192.168.1**XX**.1/25 (Group 10+)
 
     ![](media/e9731ade07f7a8bf3ee8172fc72ae6b6.png)
 
