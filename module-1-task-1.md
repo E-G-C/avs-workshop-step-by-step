@@ -1,5 +1,5 @@
 ## Task 1: Connect an existing Virtual Network with AVS using AVS ExpressRoute Circuit
-**<span style="color:red">THIS IS FOR REFERENCE ONLY AS IT HAS BEEN PRECONFIGURED FOR THIS LAB</span>**
+**THIS IS FOR REFERENCE ONLY AS IT HAS BEEN PRECONFIGURED FOR THIS LAB**
 
 ### Section Overview:
 
