@@ -20,7 +20,7 @@ the original protected site, select **Planned Migration** as the recovery type.
 
 Monitor progress. When the recovery plan run completes, go to the primary site’s
 vCenter and confirm that the test VM is back online and attached to the
-**SRM-LAB** network segment.
+**SRM-LAB-GROUP-XY** network segment.
 
 ![](media/5aa9178ac0d1b963948f0c202463cc1b.png)
 

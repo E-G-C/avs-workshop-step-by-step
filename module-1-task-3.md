@@ -26,10 +26,9 @@ In this Section, you will learn how to:
 
 **Configuration Steps:**
 
-> **Important: Please ensure all Steps are done on both AVS private clouds, AVS1
-> and 2.**
+> **Important: Please ensure all Steps are done.**
 
-### Step 1 (Preconfigured): Configure DNS Forwarder
+### <span style="color:green">Step 1 (Preconfigured): Configure DNS Forwarder</span>
 
 >**NOTE: This task is done by default for every new AVS deployment**
 
@@ -60,25 +59,17 @@ follow the steps to see how to configure it for new environments.
 
     ![](media/92ca4d165c56e83c93542aee1a917e1e.png)
 
-### Step 2: Add a DHCP Profile in both AVS 1 & AVS 2 private clouds
+### <span style="color:green">Step 2: Add a DHCP Profile in AVS private cloud</span>
 
-> **Settings to use for AVS 1**
+> **Please ensure to replace X with your group's assigned number, Y with your participant number. For participant 10 please replace XY with 20**
 
 |  **AVS 1 NSX-T Details** |                                 |
 |-------------------------|---------------------------------|
-| **DHCP Server IP**      | 10.**\#**.50.1/30               |
-| **Segment Name**        | WEB-NET                         |
-| **Segment Gateway**     | 10.**\#**.51.1/24               |
-| **DHCP Range**          | 10.**\#**.51.4-10.**\#**.51.254 |
+| **DHCP Server IP**      | 10.**XY**.50.1/30               |
+| **Segment Name**        | WEB-NET-GROUP-**XY**                         |
+| **Segment Gateway**     | 10.**XY**.51.1/24               |
+| **DHCP Range**          | 10.**XY**.51.4-10.**XY**.51.254 |
 
-> **Settings to use for AVS 2**
-
-| **AVS 2 NSX-T Details** |                                 |
-|-------------------------|---------------------------------|
-| **DHCP Server IP**      | 10.**\#**.50.5/30               |
-| **Segment Name**        | WEB-NET                         |
-| **Segment Gateway**     | 10.**\#**.52.1/24               |
-| **DHCP Range**          | 10.**\#**.52.4-10.**\#**.52.254 |
 
 A DHCP profile specifies a DHCP server type and configuration. You can use the
 default profile or create others as needed.
@@ -91,29 +82,27 @@ anywhere in your SDDC network.
 2.  Select **Networking** \> **DHCP**.
 
 3.  Click **ADD DHCP PROFILE** and name the profile as
-    **DHCP-Profile-GROUP\#-AVS1 for AVS1 or DHCP-Profile-GROUP\#-AVS2 for AVS2**
+    **DHCP-Profile-GROUP-XY-AVS for your respective group/participant.**
 
-4.  Under **Profile Type**, select DHCP Server and provide the required
+4.  Under **Profile Type** and select DHCP Server and provide the required
     configuration parameters.
 
-5.  Specify the IPv4 **Server IP Address** as **10.\#.50.1/30 for AVS1 and
-    10.\#.50.5/30 for AVS2**, and optionally change the **Lease Time**.
-
-    >   **Important: Please configure DHCP for AVS2 too. This is needed for SRM Module.**
+5.  Specify the IPv4 **Server IP Address** as **10.XY.50.1/30 and optionally change the **Lease Time** or leave the default.
 
 6.  Click **SAVE** to create the profile.
 
     ![](media/fd0e99eb8106de1b1e1a2380c4192cf9.png)
 
-### Step 3: Add the DHCP Profile to the T1 Gateway
+### <span style="color:green">Step 3: Add the DHCP Profile to the T1 Gateway</span>
 
-Perform these tasks in both AVS1 and AVS2.
+Perform these tasks:
 
 1.  In the NSX-T Console
 
 2.  Select **Networking** \> **Tier-1 Gateways**.
 
-3.  Click the **vertical ellipsis button** ![](media/b72031b7393a21a1d76a7020aa82a627.png) and select **EDIT**
+3.  Click the **vertical ellipsis button** and select **EDIT**
+    ![](media/b72031b7393a21a1d76a7020aa82a627.png)
 
     ![](media/9e060f65b56e9c77318193e00f716448.png)
 
@@ -129,7 +118,7 @@ Perform these tasks in both AVS1 and AVS2.
 6.  Click **SAVE** again to confirm the changes, and then click **CLOSE
     EDITING**.
 
-### Step 4: Create a Network Segment for workloads
+### <span style="color:green">Step 4: Create a Network Segment for workloads</span>
 
 Network segments are logical networks for use by workload VMs in the SDDC
 compute network. Azure VMware Solution supports three types of network segments:
@@ -152,7 +141,7 @@ routed, extended, and disconnected.
 1.  In NSX-T Manager, select **Networking** \> **Segments**, and then select
     **Add Segment**.
 
-2.  Enter **WEB-NET** in the **Segment Name** field
+2.  Enter **WEB-NET-GROUP-XY** in the **Segment Name** field
 
 3.  Select the Tier-1 Gateway **(TNTxx-T1)** as the **Connected Gateway**
 
@@ -161,14 +150,9 @@ routed, extended, and disconnected.
 5.  In the **Subnets** column, you will enter the IP Address for the **Gateway**
     of the Subnet that you are creating, which is the first valid IP of the
     Address Space.
-
-    -   For AVS 1 use **10.\#.51.1/24**
-
-    -   For AVS 2 use **10.\#.52.1/24**
+    -   For Example: **10.XY.51.1/24**
 
 6.  Then click **SET DHCP CONFIG**
-
-    ![](media/e11beb4fd30432b04e7aaecb7039c82c.png)
 
 7.  In the DHCP config window, select **Gateway DHCP Server** as the **DHCP
     Type**
@@ -179,9 +163,7 @@ routed, extended, and disconnected.
     assigned to your group. The IP in in the same network as the Gateway defined
     above.
 
-    -   For AVS 1 use **10.\#.51.4-10.\#.51.254**
-
-    -   For AVS 2 use **10.\#.52.4-10.\#.52.254**
+    -   Use **10.XY.51.4-10.XY.51.254**
 
 10.  In the DNS Servers, enter the IP **10.1.0.192** and click **Apply**
      ![](media/008ca8a42c13129cee85185731295da9.png)
@@ -203,12 +185,12 @@ ensures connection to the VMs on the new segment.
 -   [Configure Segment DHCP Properties
     (vmware.com)](https://docs.vmware.com/en/VMware-Cloud-on-AWS/services/com.vmware.vmc-aws.networking-security/GUID-F6D433BE-753E-4B44-82FF-236CEBA17F8B.html)
 
-### Step 5: Create Test VM and connect to Segment
+### <span style="color:green">Step 5: Create Test VM and connect to Segment</span>
 
 Now that we have our networks created, we can deploy a virtual machine and
 ensure we can get and IP address from DHCP
 
-1.  From vCenter, go to **Menu** \> **Content Library**
+1.  From AVS vCenter, go to **Menu** \> **Content Library**
 
     ![](media/34aeb3628fae2d1ef6d1132747f37c5c.png)
 
@@ -237,8 +219,7 @@ ensure we can get and IP address from DHCP
 
     ![](media/e09e193e6fea6a3f3ea1c7701ce4f797.png)
 
-8.  Give the VM a name – e.g **G\#-VM1-AVS1** or **G\#-VM1-AVS2** and select the
-    **SDDC-Datacenter**.
+8.  Give the VM a name – e.g **G-XY-VM1-AVS** and select the **SDDC-Datacenter**.
 
     ![](media/333755af322f4f601a55cd3594a37920.png)
 
@@ -252,7 +233,7 @@ ensure we can get and IP address from DHCP
 
     ![](media/53850b2fdfb3ebd2a8bacffb379b52c7.png)
 
-12. Select the segment that was created in Step 4 – **“WEB-NET”**
+12. Select the segment that was created in Step 4 – **“WEB-NET-GROUP-XY”**
 
     ![](media/0c535ae7c7b5f051c7ee46fc288a6492.png)
 
@@ -261,8 +242,8 @@ ensure we can get and IP address from DHCP
 14. Once deployed, head back to VM’s and Templates and Power On this newly
     created VM. This VM is provided as a very lightweight Linux machine that
     will automatically pick up DHCP if configured. Since we have added this to
-    the **Web-Net** segment, it should get an IP address from this DHCP range.
-    This usually takes few seconds. Click the “Refresh” button on vCneter
+    the **Web-Net-Group-XY** segment, it should get an IP address from this DHCP range.
+    This usually takes few seconds. Click the “Refresh” button on vCenter
     toolbar.
 
 15. If you see an IP address here, we have configured the VM has connected to

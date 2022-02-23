@@ -1,4 +1,5 @@
 ## Task 2: Peer remote environments with Global Reach
+**<span style="color:red">THIS IS FOR REFERENCE ONLY AS IT HAS BEEN PRECONFIGURED/NOT APPLICABLE FOR THIS LAB</span>**
 
 ### Section Overview:
 
@@ -16,10 +17,7 @@ use another AVS environment to show how to execute the process.**
 
 > **NOTE:** 
 > - Each connection requires a separate authorization. 
-> - You will be accessing two 
-> different AVS environments, **GROUP\#-AVS1-SDDC** (Primary), and **GROUP\#-AVS2-SDDC** 
-> (Secondary). 
-> - Assume that **GROUP\#-AVS2-SDDC** is your On-Premises environment.
+> - You will be accessing **GROUP\#-AVS-SDDC**
 
 ![](media/06fb486417584f7fcf97484f1fe37249.png)
 
