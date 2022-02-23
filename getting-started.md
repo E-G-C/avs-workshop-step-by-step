@@ -45,7 +45,7 @@ Size VM:
 
 Please use the following type of VM for the Jumpbox:
 
-> Operating System: Windows Server 2019 Datacenter
+> Operating System: Windows 10
 
 > Size: Standard D2s v3 (2vcpus, 8GiB memory)
 
