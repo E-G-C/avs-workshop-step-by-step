@@ -27,14 +27,14 @@ generated](media/49e2aea5074a27e19d5f8244b73bdf14.png)
 
 In the segment configuration tile, enter the following settings:
 
--   Segment Name: **SRM-LAB-RECOVERY-GROUP-XY**
+-   Segment Name: **SRM-LAB-RECOVERY-GROUP-XY** (Participant 10 please use 20 in lieu of XY)
 
 -   Connected gateway: Select the private cloud’s default Tier1 gateway
 
 -   Transport Zone: Select the private cloud’s default overlay transport zone
 
 -   Gateway CIDR IPv4: **10.XY.160.1/24** (please note that this IP subnet is not
-    the same as the primary site’s)
+    the same as the primary site’s) - Participant 10 please use 21 in lieu of XY for Group 1, 22 for Group 2 and so on.
 
 ![](media/1079bccfca90baf5c459fe5e28a2bc29.png)
 
@@ -46,7 +46,7 @@ Click on the **SET DHCP CONFIG** button and provide the following settings:
 
 -   DHCP Config: Set the toggle to **Enabled**
 
--   DHCP Ranges: **10.XY.160.100-10.XY.160.120**
+-   DHCP Ranges: **10.XY.160.100-10.XY.160.120** - Participant 10 please use 21 in lieu of XY for Group 1, 22 for Group 2 and so on.
 
 ![](media/2c58686a0ee8dd395cbd66dd35545924.png)
 

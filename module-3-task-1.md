@@ -6,21 +6,21 @@ In this task you will create a network segment in the production site and deploy
 a test VM to be protected with Site Recovery Manager.
 
 *This task requires a DHCP profile to be available in the private cloud. DHCP
-profiles have been configured in Module 1 for both GROUPX-AVS1-SDDC and
-GROUPZ-AVS2-SDDC (The other group should have configured this). If you did not complete the corresponding steps in Module 1, please go back to it and configure DHCP profiles before proceeding.*
+profiles have been configured in Module 1 for both GROUPX-AVS-SDDC and
+GROUPZ-AVS-SDDC (The other group should have configured this). If you did not complete the corresponding steps in Module 1, please go back to it and configure DHCP profiles before proceeding.*
 
 Log into NSX-T client for the protected/primary site GROUPX-AVS-SDDC. Click on
 the **Segments** item in the left-hand menu and then click the **ADD SEGMENT**
 button in the main tile. Enter the following configuration settings:
 
--   Segment Name: **SRM-LAB-GROUP-XY**
+-   Segment Name: **SRM-LAB-GROUP-XY** (For Participant 10 use 20 in lieu of XY)
 
 -   Connected gateway: Select the private cloud’s default Tier1 gateway
 
 -   Transport Zone: Select the private cloud’s default **overlay** transport
     zone
 
--   Gateway CIDR IPv4: **10.XY.60.1/24**
+-   Gateway CIDR IPv4: **10.XY.60.1/24** (For Participant 10 use 21 for group 1, 22 for group 2, 23 for group 3, etc. in lieu of XY)
 
 ![](media/367712fc63544d3aac43e67cd75c5220.png)
 
@@ -52,7 +52,7 @@ confidence](media/cee6bdc13e1efc967011ebbe78b0a1f8.png)
 Optionally, you can confirm that the newly created segment is also visible in
 the Azure portal. It may take up to 2-3 mins to show up in the portal.
 
-Navigate to GROUP\#-AVS-SDDC AVS Private Cloud and select the **Segments** item
+Navigate to GROUPX-AVS-SDDC AVS Private Cloud and select the **Segments** item
 in the Workload Networking menu on the left-hand side.
 
 ![](media/c44d19dd3dac0b8ba66c71197309b9a6.png)

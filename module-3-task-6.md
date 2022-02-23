@@ -3,7 +3,7 @@
 In this task you will configure vSphere replication for the test VM created in
 Task 2 and a recovery plan to protect it. This task is performed from the
 primary site’s vCenter client. In the main menu, select **VM and Templates** and
-then right-click on your test VM named GXY-SRM-VM1. From the context menu, select
+then right-click on your test VM named G-XY-SRM-VM1. From the context menu, select
 **All Site Recovery Actions** and then **Configure replication**.
 
 >*Note: Check pop-up blocker if stuck.*

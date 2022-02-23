@@ -73,7 +73,7 @@ topology of the lab environment**.
 
 ![](media/285abcfd08e365730976517140c3e2be.png)
 
-### Site Recovery Manager
+### **Site Recovery Manager**
 
 VMware Site Recovery Manager is a business continuity and disaster recovery
 solution that helps you plan, test, and run the recovery of virtual machines
@@ -238,7 +238,7 @@ progress or network connectivity is lost during transmission.
 >**In the lab environment, this task has been already completed**, as it can take up to 30 minutes to complete.
 
 In the Azure portal, browse to the primary AVS Private Cloud
-(GROUP\#-AVS1-SDDC), select the **Add-ons** item from the menu and the click on
+(GROUPX-AVS-SDDC), select the **Add-ons** item from the menu and the click on
 the **Get Started** button in the **Disaster Recovery** tile.
 
 ![](media/9ed4b5667c42384d2105f50d61508087.png)

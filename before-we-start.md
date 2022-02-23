@@ -2,7 +2,7 @@
 
 1.  Moderators will be on-hand in the breakout rooms sessions.
 
-2.  Break Out Rooms – One assigned to each partner.
+2.  Break Out Rooms - We will have a total of 7 breakout rooms.
 
 3.  Every day session will start with a quick discussion on what will be build and we will move everyone to their respective break out rooms.
 
@@ -10,5 +10,3 @@
 
 5. Provide feedback pre and post session Links will be pasted in the Teams chat.
 
-13. Teams channel Link
-    <NEED TO INSERT LINK HERE>

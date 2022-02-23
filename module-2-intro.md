@@ -40,7 +40,7 @@ workloads from On-Prem VMware environment to AVS.
 
     -   AVS vCenter: get from the Azure Portal
 
-    -   On-prem vCenter: 192.168.**XY**.2/24
+    -   On-prem vCenter: 10.**X.Y**.2/24
 
 <span style="color:green">Remember that X is your group number and Y is your participant number.</span>
 

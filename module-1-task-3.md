@@ -61,7 +61,7 @@ follow the steps to see how to configure it for new environments.
 
 ### <span style="color:green">Step 2: Add a DHCP Profile in AVS private cloud</span>
 
-> **Please ensure to replace X with your group's assigned number, Y with your participant number**
+> **Please ensure to replace X with your group's assigned number, Y with your participant number. For participant 10 please replace XY with 20**
 
 |  **AVS 1 NSX-T Details** |                                 |
 |-------------------------|---------------------------------|
@@ -190,7 +190,7 @@ ensures connection to the VMs on the new segment.
 Now that we have our networks created, we can deploy a virtual machine and
 ensure we can get and IP address from DHCP
 
-1.  From vCenter, go to **Menu** \> **Content Library**
+1.  From AVS vCenter, go to **Menu** \> **Content Library**
 
     ![](media/34aeb3628fae2d1ef6d1132747f37c5c.png)
 

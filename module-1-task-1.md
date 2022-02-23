@@ -4,7 +4,7 @@
 ### Section Overview:
 
 In this section you will create a connection between an existing, non-AVS,
-Virtual Network in Azure and the Azure VMWare Service environment. This allows
+Virtual Network in Azure and the Azure VMware Service environment. This allows
 the jumpbox virtual machine to manage key components in the VMware management
 plane such as vCenter, HCX, and NSX-T. You will also be able to access Virtual
 Machines deployed in AVS and allows those VMs to access resources deployed in
