@@ -1,5 +1,5 @@
 ## Task 2: Peer remote environments with Global Reach
-**<span style="color:red">THIS IS FOR REFERENCE ONLY AS IT HAS BEEN PRECONFIGURED/NOT APPLICABLE FOR THIS LAB</span>**
+**THIS IS FOR REFERENCE ONLY AS IT HAS BEEN PRECONFIGURED/NOT APPLICABLE FOR THIS LAB**
 
 ### Section Overview:
 
