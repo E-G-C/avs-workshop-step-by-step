@@ -6,7 +6,7 @@ deployed in Task 5
 1.  Browse to the On-Premises HCX Manager IP specified in Task 4 on port 9443 IP
     and login (Make sure you use **https://** in the address bar in the browser)
 
-    1.1.  <https://10.211.x.9:9443>
+    1.1.  <https://10.X.Y.9:9443>
 
 2.  Login using the **HCX Credentials** specified in Task 4
 

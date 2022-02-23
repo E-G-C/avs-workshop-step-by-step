@@ -10,8 +10,8 @@ module can be completed in 60 minutes, as per the agenda below.
 |----|-------------------------------------------------------------|-----------------------|---------------------------------|
 | 1  | Introduction and Session Walkthrough                        | NA                    | 5 mins                          |
 | 2  | Cover SRM concepts for lab                                  | NA                    | 5 mins                          |
-| 3  | Enable SRM Addon for both AVS clouds (primary and recovery) | 15-30 mins            | Preconfigured                   |
-| 4  | Install the vSphere replication appliance                   | 15 mins               | Preconfigured                   |
+| 3  | Enable SRM Addon for both AVS clouds (primary and recovery) | 15-30 mins            | 30 mins                   |
+| 4  | Install the vSphere replication appliance                   | 15 mins               | 15 mins                   |
 | 5  | Configure protected site                                    |                       | 10 mins                         |
 | 6  | Create a test VM to be replicated                           |                       | 5 mins                          |
 | 7  | Configure recovery site                                     |                       | 5 mins                          |
@@ -56,22 +56,24 @@ In this module, you will learn how to:
 
 ### Module scenario
 
-In this module, two AVS Private Clouds are used. VMWare Site Recovery Manager
+In this module, two AVS Private Clouds are used. VMware Site Recovery Manager
 will be configured at both sites to replicate VMs in the protected site to the
 recovery site.
 
+<span style="color:green">Group X is your original assigned group, Group Z is the group you will be using as a Recovery site, for example, Group 1 will be using Group 2's SDDC as a Recovery site</span>
+
 | Private Cloud Name | Location         | Role               |
 |--------------------|------------------|--------------------|
-| GROUP\#-AVS1-SDDC  | East US 2        | **Protected** Site |
-| GROUP\#-AVS2-SDDC  | South Central US | **Recovery** Site  |
+| GROUPX-AVS-SDDC  | Brazil South        | **Protected** Site |
+| GROUPZ-AVS-SDDC  | Brazil South | **Recovery** Site  |
 
 **The two private clouds have been already interconnected with each other in
-Module 1, using ExpressRoute Global Reach. The diagram below depicts the
+Module 1, using ExpressRoute Global Reach or AVS Interconnect. The diagram below depicts the
 topology of the lab environment**.
 
 ![](media/285abcfd08e365730976517140c3e2be.png)
 
-### Site Recovery Manager
+### **Site Recovery Manager**
 
 VMware Site Recovery Manager is a business continuity and disaster recovery
 solution that helps you plan, test, and run the recovery of virtual machines
@@ -119,7 +121,7 @@ figure below shows the high-level architecture for a SRM site pair.
 
 ![](media/eb6490e5af96d0baf0e7b0971e1e3025.png)
 
-### vSphere replication
+### vSphere Replication
 
 SRM can work with multiple replication technologies: Array-based replication,
 vSphere (aka host-based) replication, vVols replication and a combination of
@@ -236,7 +238,7 @@ progress or network connectivity is lost during transmission.
 >**In the lab environment, this task has been already completed**, as it can take up to 30 minutes to complete.
 
 In the Azure portal, browse to the primary AVS Private Cloud
-(GROUP\#-AVS1-SDDC), select the **Add-ons** item from the menu and the click on
+(GROUPX-AVS-SDDC), select the **Add-ons** item from the menu and the click on
 the **Get Started** button in the **Disaster Recovery** tile.
 
 ![](media/9ed4b5667c42384d2105f50d61508087.png)

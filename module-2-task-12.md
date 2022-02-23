@@ -16,8 +16,7 @@ to retain their existing IP address and be accessible from all locations
 3.  Select the First Hop Router, in this Lab there is only 1 option –
     **TNTXX-TI**
 
-4.  Enter the Workload Web Gateway IP as 10.211.10**X**.1/25 or
-    10.211.1**XX**.1/25 (Group 10+)
+4.  Enter the Workload Web Gateway IP as 10.**X.XY**.1/25. For participant 10 XY in this instance will be the value 20. For example: Group 1, Participant 10 should result in 10.1.20.1/25.
 
     ![](media/e9731ade07f7a8bf3ee8172fc72ae6b6.png)
 

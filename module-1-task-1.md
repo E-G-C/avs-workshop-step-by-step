@@ -1,10 +1,11 @@
 ## Task 1: Connect an existing Virtual Network with AVS using AVS ExpressRoute Circuit
+**<span style="color:red">THIS IS FOR REFERENCE ONLY AS IT HAS BEEN PRECONFIGURED FOR THIS LAB</span>**
 
 ### Section Overview:
 
 In this section you will create a connection between an existing, non-AVS,
-Virtual Network in Azure and the Azure VMWare Service environment. This allows
-the jumpbox virtual machine to manage key components in the VMWare management
+Virtual Network in Azure and the Azure VMware Service environment. This allows
+the jumpbox virtual machine to manage key components in the VMware management
 plane such as vCenter, HCX, and NSX-T. You will also be able to access Virtual
 Machines deployed in AVS and allows those VMs to access resources deployed in
 the Hub or Spoke VNet’s, such as Private Endpoints and other Azure VMs or
@@ -18,10 +19,10 @@ where the JumpBox is connected to.
 
 The diagram below shows the respective resource groups for your lab environment.
 
-You will replace Group1 with GROUP**\#** where **\#** represents your group
+You will replace Group1 with GROUP\# where **\#** represents your group
 number.
 
-![](media/990483f5a3dbac10365e97b3f9d81e67.png)
+![](media/Mod1Task1.png)
 
 ### Deployment Steps:
 
@@ -32,14 +33,12 @@ number.
 > will be in Failed state because another Connection to the same target already exists. This is 
 > expected behaviour and you can ignore the error.** 
 > 
-> **Important: Please ensure all Steps are done on both AVS private clouds, AVS1
-> and 2.**
 > 
 
 1.  Request an ExpressRoute authorization key:
 
     1.1  In the Azure portal, navigate to the Azure VMware Solution private
-        cloud, then click **GROUP\#-AVS1-SDDC**, then Select **Manage** \>
+        cloud, then click **GROUP\#-AVS-SDDC**, then Select **Manage** \>
         **Connectivity** \> **ExpressRoute** and then select **+ Request an
         authorization key**.
     ![](media/f6f4c38e827359e0b4d4425229fef764.png)
@@ -54,7 +53,7 @@ number.
     ![](media/9937b15e4bf9036b5c0e63319f1842ef.png)
 
 2.  Navigate to the **virtual network gateway** - which is in resource group
-    “GROUP**\#**-AVS1-Network”, where X is your lab/group number - you plan to
+    “GROUP**\#**-AVS-Network”, where X is your lab/group number - you plan to
     use and select **Connections** \> **+ Add**.
     ![](media/2da1b77d558f10b6a5744c9365b4ac56.png)
 
@@ -89,8 +88,8 @@ number.
     this connection by accessing vCenter in AVS from a jumpbox in Azure.
 6.  In the Azure Portal, go back to the Azure VMWare Solution
 
-7.  Select the Azure VMWare Solution associated with your group:
-    GROUP\#-AVS1-SDDC
+7.  Select the Azure VMware Solution associated with your group:
+    GROUP\#-AVS-SDDC
 
 8.  In the left hand navigation, select **Identity**
 
@@ -100,13 +99,13 @@ number.
     ![](media/c4373fb79f1e514199a2818c9c7f1896.png)
 
 10.  Next, open a separate tab in your browser and access another Azure Portal.
-    Go to Resources Groups \> GROUP\#-AVS1-JUMPBOX
+    Go to Resources Groups \> GROUP\#-AVS-JUMPBOX
 
 11.  In the Overview pane, you will see several resources. Select the
-    GROUP\#-AVS1-JUMPBOX virtual machine
+    GROUP\#-AVS-JUMPBOX virtual machine
      ![](media/b734b5526fc08133182df06e4f54766e.png)
 
-12.  Next, connect to the Group\#-AVS1-jumpbox using Bastion. On the
+12.  Next, connect to the Group\#-AVS-jumpbox using Bastion. On the
     GROUP\#-AVS-Jumpbox select **Connect \> Bastion**
     ![](media/7f55862c6987b9cec69d8ccbcb4accab.png)
 
@@ -129,7 +128,7 @@ number.
     14.5.  Select the Launch vSphere Client (HTML5) button to launch the login
     ![](media/54cea9a66678b2eced868e21f630ee15.png)
 
-    14.6.  If the portal launches successfully, then the Expressroute connection is
+    14.6.  If the portal launches successfully, then the ExpressRoute connection is
     working properly
 
     ![](media/12a93addd22df8def5b1935a46341f94.png)

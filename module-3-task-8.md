@@ -37,7 +37,7 @@ Monitor progress in the SRM console.
 
 When the recovery process is marked complete, go to the recovery site’s vCenter
 and verify that the test VM GX-SRM-VM1 is powered on and attached to the
-**SRM-LAB-RECOVERY** network segment.
+**SRM-LAB-RECOVERY-GROUP-XY** network segment.
 
 ![](media/f68b43883ab5bc938e33ddac1c96f63d.png)
 
