@@ -64,9 +64,6 @@ other services. For more information see
 
 If you are in a group with multiple participants you will be assigned a participant number.
 
-<span style="color:green">X = Group Number</span>
-<span style="color:green">Y = Participant Number</span>
-
 ### **Group 1, 2, 3, 4**
 
 | **Group**   | **Participant** | **vCenter IP**     | **Username**                | **Password** | **Web workload IP** | **App Workload IP** |
