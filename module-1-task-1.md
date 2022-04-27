@@ -19,8 +19,7 @@ where the JumpBox is connected to.
 
 The diagram below shows the respective resource groups for your lab environment.
 
-You will replace Group1 with GROUP\# where **\#** represents your group
-number.
+You will replace Name with Partner Name, for example: GPSUS-Name1-SDDC for partner XYZ would be GPSUS-XYZ1-SDDC.
 
 ![](media/Mod1Task1.png)
 
@@ -38,7 +37,7 @@ number.
 1.  Request an ExpressRoute authorization key:
 
     1.1  In the Azure portal, navigate to the Azure VMware Solution private
-        cloud, then click **GROUP\#-AVS-SDDC**, then Select **Manage** \>
+        cloud, then click **GPSUS-Name\#-SDDC**, then Select **Manage** \>
         **Connectivity** \> **ExpressRoute** and then select **+ Request an
         authorization key**.
     ![](media/f6f4c38e827359e0b4d4425229fef764.png)
@@ -53,7 +52,7 @@ number.
     ![](media/9937b15e4bf9036b5c0e63319f1842ef.png)
 
 2.  Navigate to the **virtual network gateway** - which is in resource group
-    “GROUP**\#**-AVS-Network”, where X is your lab/group number - you plan to
+    “GPSUS-Name**\#**-Network”, where # is your lab/group number - you plan to
     use and select **Connections** \> **+ Add**.
     ![](media/2da1b77d558f10b6a5744c9365b4ac56.png)
 
@@ -89,7 +88,7 @@ number.
 6.  In the Azure Portal, go back to the Azure VMWare Solution
 
 7.  Select the Azure VMware Solution associated with your group:
-    GROUP\#-AVS-SDDC
+    GPSUS-Name\#-SDDC
 
 8.  In the left hand navigation, select **Identity**
 
@@ -99,14 +98,14 @@ number.
     ![](media/c4373fb79f1e514199a2818c9c7f1896.png)
 
 10.  Next, open a separate tab in your browser and access another Azure Portal.
-    Go to Resources Groups \> GROUP\#-AVS-JUMPBOX
+    Go to Resources Groups \> GPSUS-Name\#-Jumpbox
 
 11.  In the Overview pane, you will see several resources. Select the
-    GROUP\#-AVS-JUMPBOX virtual machine
+    GPSUS-Name\#-Jumpbox virtual machine
      ![](media/b734b5526fc08133182df06e4f54766e.png)
 
-12.  Next, connect to the Group\#-AVS-jumpbox using Bastion. On the
-    GROUP\#-AVS-Jumpbox select **Connect \> Bastion**
+12.  Next, connect to the GPSUS-Name\#-jumpbox using Bastion. On the
+    GPSUS-Name\#-Jumpbox select **Connect \> Bastion**
     ![](media/7f55862c6987b9cec69d8ccbcb4accab.png)
 
 13. Enter the credentials found in [Getting Started](#getting-started)
