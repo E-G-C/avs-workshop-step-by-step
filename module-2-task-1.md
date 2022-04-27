@@ -1,4 +1,4 @@
-# Task 1 (Preconfigured) : Install VMware HCX on AVS Private Cloud
+# Task 1 : Install VMware HCX on AVS Private Cloud
 
 In the following task, we will be installing HCX on our AVS Private Cloud. This
 is a simple process from the Add-ons section in the Azure Portal, or via
