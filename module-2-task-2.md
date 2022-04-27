@@ -15,7 +15,7 @@ Manager
 **Please access your own Bastion VM created at the beginning of the exercises. This is for reference purposes only.**
 
 2.  Navigate to the Azure portal to the Virtual Machines blade, select the
-    **GROUP\#-AVS-jumpbox** which is in the **GROUP\#-AVS-Jumpbox** Resource
+    **GPSUS-Name\#-jumpbox** which is in the **GPSUS-Name\#-Jumpbox** Resource
     Group.
 
 3.  Then click **Connect \> Bastion**  
@@ -26,9 +26,9 @@ Manager
 
 4.  Use the credentials:
 
-    username: avsjump
+    username: avsjump (or whatever name you gave your user when you created your Jumpbox)
 
-    password: see Getting Started section
+    password: Enter the password you entered when creating your Jumpbox.
 
 5.  Once logged in, browse to the AVS HCX Manager URL
 
