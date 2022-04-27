@@ -17,7 +17,7 @@ use another AVS environment to show how to execute the process.**
 
 > **NOTE:** 
 > - Each connection requires a separate authorization. 
-> - You will be accessing **GROUP\#-AVS-SDDC**
+> - You will be accessing **GPSUS-Name\#-SDDC**
 
 ![](media/06fb486417584f7fcf97484f1fe37249.png)
 
@@ -25,7 +25,7 @@ use another AVS environment to show how to execute the process.**
 
 1.  Peering with another AVS
 
-    1.1.  Access your **Secondary AVS** environment **GROUP\#-AVS2-SDDC** and
+    1.1.  Access your **Secondary AVS** environment **GPSUS-Name\#-SDDC** and
         request an ExpressRoute authorization key:
 
     1.2.  In the Azure portal, navigate to the Azure VMware Solution private
@@ -46,7 +46,7 @@ use another AVS environment to show how to execute the process.**
 
     ![](media/144d87dc79f45f4f0ae2a2a83d9b88ac.png)
 
-3.  From the **GROUP\#-AVS1-SDDC environment**, under Manage, select
+3.  From the **GPSUS-Name\#-SDDC environment**, under Manage, select
     **Connectivity** \> **ExpressRoute Global Reach** \> **Add**.
 
 4.  Enter the **ExpressRoute ResourceID** and the **Authorization Key** from the
