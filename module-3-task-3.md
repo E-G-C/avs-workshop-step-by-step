@@ -2,7 +2,7 @@
 
 <span style="color:green">Remember X is your group number, Y is your participant number, Z is the SDDC you've been paired with.</span>
 
-In this task you will configure the recovery site GROUPZ-AVS-SDDC with a
+In this task you will configure the recovery site GPSUS-NAMEZ-SDDC with a
 network segment for the VMs moved by SRM from the primary site. In this lab, we
 focus on a basic scenario where the VMs protected by SRM do not need to retain
 their IP address when moved to the recovery site. A DHCP service is used both in
@@ -10,11 +10,11 @@ the protected and in the recovery site to assign IP addresses to VMs when they
 boot.
 
 *This task requires a DHCP profile to be available in the recovery private
-cloud. DHCP profiles have been configured in Module 1 for both GROUPX-AVS-SDDC
-and GROUPZ-AVS-SDDC. If you did not complete the corresponding steps in Module
+cloud. DHCP profiles have been configured in Module 1 for both GPSUS-NAMEX-SDDC
+and GPSUS-NAMEZ-SDDC. If you did not complete the corresponding steps in Module
 1, please go back to it and configure DHCP profiles before proceeding.*
 
-Log into NSX-T for the recovery site GROUPZ-AVS-SDDC. Please note that,
+Log into NSX-T for the recovery site GPSUS-NAMEZ-SDDC. Please note that,
 because of the AVS Interconnect connectivity that has been configured in Module 1
 between the protected and the recovery private clouds, you can access vCenter
 and NSX-T for both from the same jump-box.
@@ -27,7 +27,7 @@ generated](media/49e2aea5074a27e19d5f8244b73bdf14.png)
 
 In the segment configuration tile, enter the following settings:
 
--   Segment Name: **SRM-LAB-RECOVERY-GROUP-XY** (Participant 10 please use 20 in lieu of XY)
+-   Segment Name: **SRM-LAB-RECOVERY-GROUP-XY**
 
 -   Connected gateway: Select the private cloud’s default Tier1 gateway
 
@@ -46,7 +46,7 @@ Click on the **SET DHCP CONFIG** button and provide the following settings:
 
 -   DHCP Config: Set the toggle to **Enabled**
 
--   DHCP Ranges: **10.XY.160.100-10.XY.160.120** - Participant 10 please use 21 in lieu of XY for Group 1, 22 for Group 2 and so on.
+-   DHCP Ranges: **10.XY.160.100-10.XY.160.120**
 
 ![](media/2c58686a0ee8dd395cbd66dd35545924.png)
 
@@ -61,7 +61,7 @@ Confirm that the segment has been created successfully.
 ![](media/5f22e72b7e51403fbfaea81cf0aa0a07.png)
 
 Optionally, you can confirm that the newly created segment is also visible in
-the Azure portal (navigate to GROUPZ-AVS-SDDC Private Cloud and select the
+the Azure portal (navigate to GPSUS-NAMEZ-SDDC Private Cloud and select the
 **Segments** item in the Workload Networking menu on the left-hand side.
 
 ![](media/da0bcd9932febb3eba083afac1db3712.png)
