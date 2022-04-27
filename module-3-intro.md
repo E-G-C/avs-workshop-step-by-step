@@ -233,12 +233,12 @@ progress or network connectivity is lost during transmission.
     configuration of the protected and recovery sites is valid.
 
 
-## **Task 0 (preconfigured): Install SRM add-on in the protected and the recovery sites**
+## **Task 0 : Install SRM add-on in the protected and the recovery sites**
 
->**In the lab environment, this task has been already completed**, as it can take up to 30 minutes to complete.
+>**It can take up to 30 minutes to complete.
 
 In the Azure portal, browse to the primary AVS Private Cloud
-(GROUPX-AVS-SDDC), select the **Add-ons** item from the menu and the click on
+(GPSUS-Name\#-SDDC), select the **Add-ons** item from the menu and the click on
 the **Get Started** button in the **Disaster Recovery** tile.
 
 ![](media/9ed4b5667c42384d2105f50d61508087.png)
