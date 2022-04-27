@@ -52,6 +52,7 @@ Please use the following type of VM for the Jumpbox:
 ### **vCenter, HCX, and NSX-T URLs**
 
 Please refer to the Identity blade in the Azure portal for AVS vCenter, HCX, and NSX-T URLs and Login Information.
+** PLEASE DO NOT CLICK GENERATE A NEW PASSWORD BUTTON UNDER CREDENTIALS IN AZURE PORTAL **
 
 **Note**: In a real customer environment, the local
 [cloudadmin@vsphere.local](mailto:cloudadmin@vsphere.local) account should be
