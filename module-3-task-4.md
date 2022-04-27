@@ -3,11 +3,11 @@
 <span style="color:green">Remember X is your group number, Y is your participant number, Z is the SDDC you've been paired with.</span>
 
 In this task you will pair the protected site GROUPX-AVS-SDDC and the recovery
-site GROUPZ-AVS-SDDC.
+site GPSUS-NAMEZ-SDDC.
 
 Site pairing can be configured from vCenter on either the primary or the
 recovery private cloud. You will work on the primary site’s vCenter. If needed,
-log into vCenter in the primary AVS private cloud GROUPX-AVS-SDDC and select
+log into vCenter in the primary AVS private cloud GPSUS-NAMEX-SDDC and select
 **Site Recovery** from the main menu. Click on the **OPEN Site Recovery** button.
 
 ![](media/31c387a424cd9ac00e00f5b1f46ec7d5.png)
@@ -22,8 +22,8 @@ Click on the **NEW SITE PAIR** button to launch the configuration wizard.
 ![](media/2846f78785bf7bc7f6b5a4906ef0b335.png)
 
 Select the local vCenter server that you want to pair. The only option is the
-protected site’s vCenter (GROUPX-AVS-SDDC). Provide the IP address and the
-credentials of the recovery site’s vCenter (GROUPZ-AVS-SDDC), which can be
+protected site’s vCenter (GPSUS-NAMEX-SDDC). Provide the IP address and the
+credentials of the recovery site’s vCenter (GPSUS-NAMEZ-SDDC), which can be
 obtained from the Azure portal. Ensure that you remove *https and/or any
 slashes* after pasting the vCenter value.
 
