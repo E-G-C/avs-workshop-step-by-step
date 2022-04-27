@@ -251,10 +251,7 @@ ensure we can get and IP address from DHCP
 
     ![](media/665caf7b7a09a57314947d3f82c7a094.png)
 
-16. We can confirm this by pinging this IP address from the jumpbox
-
-    ![Text Description automatically
-    generated](media/c264ca6ac05a723ca649d66cadfec339.png)
+16. We can confirm this by SSH'ing to this IP address from the jumpbox
 
 ## Next Steps
 
