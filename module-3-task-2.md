@@ -9,7 +9,7 @@ template has been added to the private cloud’s Local Library in Module 1. If y
 did not complete the corresponding steps in Module 1, please go back to it and
 add a template to your protected site’s Local Library.*
 
-Log into vCenter for the protected site GROUPX-AVS-SDDC. From the main menu
+Log into vCenter for the protected site GPSUS-NAMEX-SDDC. From the main menu
 select **Content Libraries** and then click on **Local Library**. In the **Templates**
 section, find the template **NetworkTest-VM**, right-click on it and select **New
 VM from This Template** from the context menu.
