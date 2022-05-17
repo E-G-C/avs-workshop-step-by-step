@@ -5,7 +5,7 @@ HCX appliance to the AVS HCX appliance
 
 1.  Sign into your On-Premises vCenter
 
-    1.1.  URL: https://192.168.Y.2
+    1.1.  URL: https://10.X.Y.2
 
     1.2.  Username:
         administrator@vsphere.local
