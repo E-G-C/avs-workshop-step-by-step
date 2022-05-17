@@ -1,5 +1,7 @@
 ## Task 3: Configure NSX-T to establish connectivity within AVS
 
+> **Important: ONLY ONE PERSON IN THE GROUP CAN DO THIS STEP. IF THE FIRST PERSON ALREADY DID THIS STEP, YOU ARE WELCOME TO GO THROUGH THE STEPS TO LEARN HOW THIS STEP IS DONE BUT KEEP IN MIND YOU MAY NOT BE ABLE TO SUCCESSFULLY FINISH THIS STEP.**
+
 ### Section Overview:
 
 After deploying Azure VMware Solution, you can configure an NSX-T network
