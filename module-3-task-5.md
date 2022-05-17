@@ -1,5 +1,7 @@
 # Task 5: Configure Inventory Mappings
 
+> **ONLY ONE PERSON IN THE GROUP WILL BE ABLE TO COMPLETE THIS TASK.**
+
 <span style="color:green">Remember X is your group number, Y is your participant number, Z is the SDDC you've been paired with.</span>
 
 In this task you will configure inventory mappings, which define the resources
