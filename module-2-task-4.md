@@ -33,9 +33,9 @@ Started section
     |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------|
     | Hostname                                | Any name (Suggestion: HCX-Manager**XY**) **Note: Do not leave a space in the name as this causes the webserver to fail)** |
     | CLI "admin" User Password/root Password | 0hDG3VqFyTd!                                                                                                           |
-    | Network 1 IPv4 Address                  | 192.168.**Y**.9                                                                                                         |
+    | Network 1 IPv4 Address                  | 10.**X**.**Y**.9                                                                                                         |
     | Network 1 IPv4 Prefix Length            | 27                                                                                                                     |
-    | Default IPv4 Gateway                    | 192.168.**Y**.1                                                                                                         |
+    | Default IPv4 Gateway                    | 10.**X**.**Y**.1                                                                                                         |
     | DNS Server list                         | 1.1.1.1                                                                                                                |
 
     ![](media/b85bba096a40c43616f56c8adfbac9d9.png)
