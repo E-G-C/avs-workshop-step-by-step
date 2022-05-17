@@ -40,11 +40,11 @@ workloads from On-Prem VMware environment to AVS.
 
     -   AVS vCenter: get from the Azure Portal
 
-    -   On-prem vCenter: 192.168.**X**.2/24
+    -   On-prem vCenter: 10.**X**.**Y**.2/24
 
-<span style="color:green">Remember that X is your participant number.</span>
+<span style="color:green">Remember that X is your group number and Y is your participant number.</span>
 
->**Important: Make a note of Latency number from jumpbox to on-prem VM. We’ll use
+>**Important: Make a note of Latency number from jumpbox to on-prem VM. W e’ll use
 that number for comparison after VM is moved from on-prem to AVS**
 
 -   Review HCX documentation on VMware site. [(About the VMware HCX User
