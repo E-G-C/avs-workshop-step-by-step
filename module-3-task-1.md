@@ -1,5 +1,7 @@
 ## Task 1: Configure the production site (GROUPX-AVS-SDDC)
 
+> **ONLY ONE PERSON IN THE GROUP CAN PERFORM THIS TASK. FEEL FREE TO GO THROUGH THE STEPS FOR LEARNING PURPOSES BUT ONLY ONE PERSON IN THE GROUP WILL BE ABLE TO FULLY COMPLETE THIS STEP.**
+
 <span style="color:green">Remember X is your group number, Y is your participant number, Z is the SDDC you've been paired with.</span>
 
 In this task you will create a network segment in the production site and deploy
