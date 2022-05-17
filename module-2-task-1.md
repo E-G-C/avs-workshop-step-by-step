@@ -4,7 +4,7 @@ In the following task, we will be installing HCX on our AVS Private Cloud. This
 is a simple process from the Add-ons section in the Azure Portal, or via
 Bicep/ARM/PowerShell
 
-> **NOTE: This task has been completed for you in your AVS environment**
+> **NOTE: Only one person per group can do this task.**
 
 1.  Navigate to the Azure Portal, search for *Azure VMware Solution* in the
     search bar and select
