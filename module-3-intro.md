@@ -235,7 +235,7 @@ progress or network connectivity is lost during transmission.
 
 ## **Task 0 : Install SRM add-on in the protected and the recovery sites**
 
->**It can take up to 30 minutes to complete.
+>**It can take up to 30 minutes to complete. ONLY ONE PERSON IN THE GROUP CAN PERFORM THIS TASK. IF SRM ADD-ON HAS ALREADY BEEN INSTALLED, FEEL FREE TO SKIP THIS STEP.**
 
 In the Azure portal, browse to the primary AVS Private Cloud
 (GPSUS-Name\#-SDDC), select the **Add-ons** item from the menu and the click on
