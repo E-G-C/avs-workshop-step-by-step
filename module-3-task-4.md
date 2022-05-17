@@ -2,7 +2,7 @@
 
 <span style="color:green">Remember X is your group number, Y is your participant number, Z is the SDDC you've been paired with.</span>
 
-In this task you will pair the protected site GROUPX-AVS-SDDC and the recovery
+In this task you will pair the protected site GPSUS-NAMEX-SDDC and the recovery
 site GPSUS-NAMEZ-SDDC.
 
 Site pairing can be configured from vCenter on either the primary or the
