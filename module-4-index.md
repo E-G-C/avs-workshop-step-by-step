@@ -5,7 +5,7 @@
   - [Task 3: Configure Azure Firewall policies](module-4-task-3.md#task-3-configure-azure-firewall-policies)
 
 
-## Next Seps
+## Next Steps
 
 [Module 4 Intro](module-4-intro.md#introduction)
 
