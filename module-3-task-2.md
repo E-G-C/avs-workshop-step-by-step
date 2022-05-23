@@ -40,10 +40,8 @@ range configured in Task 1.
 
 ![](media/96f56838bed0f88643da6f8f3a9770d1.png)
 
-Test your network configuration by pinging the VM from the jump-box you are
+Test your network configuration by SSH'ing the VM from the jump-box you are
 working on.
-
-![](media/e61ddb7e9c1c22afca8eacc835eba309.png)
 
 ## Next Steps
 
