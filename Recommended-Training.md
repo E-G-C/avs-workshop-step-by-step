@@ -6,7 +6,7 @@
   - [**SRM**](#srm)
 ## **AVS**
 
--   Azure VMWare Solution – Microsoft Docs
+-   [Azure VMWare Solution – Microsoft Docs](https://aka.ms/AVSDocs)
 
 ## **AVS Networking**
 
